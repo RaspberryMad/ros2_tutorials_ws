@@ -1,0 +1,70 @@
+Observaciones de la camara/sensor de distancia.
+Siguiendo las instrucciones del video que paso Lorenzo (https://www.youtube.com/watch?v=2pW0C2hkG-8),
+la instalacion del paquete ros2_astra_camera (https://github.com/orbbec/ros2_astra_camera) realizado con exito.
+
+El contenido esta alojado en: ros2_tutorials_ws/src
+Aqui tenemos:
+1. libuvc -  es una biblioteca que proporciona soporte para la comunicación con cámaras compatibles con el protocolo UVC (USB Video Class). En este directorio tienes el código fuente de libuvc, que sirve como una dependencia clave para el controlador astra_camera.
+
+¿Qué hace?
+- libuvc permite capturar datos de cámaras UVC como imágenes y vídeos.
+- Se utiliza como una capa de abstracción para acceder al hardware de la cámara Astra.
+
+¿Por qué es importante?
+- astra_camera utiliza libuvc para comunicarse con la cámara Astra y obtener flujos de datos como RGB, profundidad e infrarrojos.
+Si libuvc no está instalado correctamente, el controlador astra_camera no podrá interactuar con la cámara, y los temas de imagen podrían no publicarse.
+
+2. my_astra_camera - Este es tu espacio de trabajo (workspace) para ROS 2 donde estás trabajando específicamente con la cámara Astra y otros componentes relacionados. Es un directorio donde almacenas paquetes ROS 2, código fuente y cualquier configuración específica.
+Dentro de este espacio de trabajo, tienes:
+
+2.1 astra_camera - Este directorio contiene el código fuente del paquete astra_camera, que es el controlador (driver) para manejar la cámara Orbbec Astra en ROS 2. Su función principal es:
+- Publicar los datos de la cámara, como imágenes RGB, profundidad, e infrarrojos, en temas de ROS 2.
+- Proveer servicios para configurar parámetros como exposición, ganancia, y activar/desactivar sensores específicos.
+- Manejar la comunicación entre el sistema y la cámara mediante bibliotecas subyacentes como libuvc.
+El archivo de lanzamiento astra.launch.xml y las configuraciones importantes también se encuentran aquí.
+
+2.2 astra_camera_msgs - Este directorio contiene definiciones de mensajes y servicios específicos para el paquete astra_camera. Los mensajes y servicios permiten:
+- Definir estructuras de datos específicas para la cámara, como información sobre parámetros de exposición, ganancia o calibración.
+- Implementar servicios ROS 2 que interactúan con la cámara, por ejemplo:
+    * Obtener información del dispositivo (GetDeviceInfo).
+    * Configurar parámetros (SetInt32, SetBool).
+Estos mensajes son fundamentales para que ROS 2 pueda interactuar con la cámara de manera estructurada.
+
+Funcionamiendo de la camara 50% / 50%
+El problema con la camara es que no se aparece el paquete "camara/color" que se ve en el video en 14.22. Solo aparece los paquetes "depth" y "ir".
+Si abres la app Sheese (de Linux) se puede ver la imagen captada en el primer segundo y luego deja de capturar, queda en bucle. (no se si falla la camara o Raspberry es demaciado debil)
+
+Tb se puede probar la camara con rviz2.
+Para esto, situate en ros2_tutorials_ws. (aqui habra que abrir 2 terminales)
+
+En el primer terminal ejecuta:
+source /opt/ros/humble/setup.bash 
+source ./install/setup.bash 
+ros2 launch astra_camera astra.launch.xml
+
+En el segundo terminal ejecuta:
+source /opt/ros/galactic/setup.bash 
+source ./install/setup.bash 
+rviz2
+
+Se abre la ventana de rviz2, usa el video de Youtube para seguir las instrucciones.
+
+
+Funcionamiendo del sensor 100%
+Sensor funciona perfectamente. 
+Puedes comprobarlo usando rviz2 o ejecutar el codigo. 
+Para probarlo con codigo sigue estos pasos:
+
+Situate en ros2_tutorials_ws. (aqui habra que abrir 2 terminales)
+
+En el primer terminal ejecuta:
+source /opt/ros/humble/setup.bash 
+source ./install/setup.bash 
+ros2 launch astra_camera astra.launch.xml
+
+En el segundo terminal ejecuta:
+source /opt/ros/humble/setup.bash 
+source ./install/setup.bash 
+python3 ~/ros2_tutorials_ws/src/my_astra_camera/DepthMeasurement.py
+
+En la segunda consola observaras la distancia entre el sensor y objeto que este delante sensor. Ojo, el sensor no capta las destancias inferiores a 0.45 metros (45 centimetros)

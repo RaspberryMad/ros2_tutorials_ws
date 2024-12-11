@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.001775] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001909] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002468] (-) JobUnselected: {'identifier': 'cpp_parameters'}
+[0.002558] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.002637] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.003342] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.003555] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.003639] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.003718] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003795] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003869] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003944] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.004019] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.004095] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.004168] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.004243] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.004318] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.004393] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.004467] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.004547] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.004621] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.004709] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.004785] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.004857] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.004931] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.005005] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.005078] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.005151] (-) JobUnselected: {'identifier': 'libuvc'}
+[0.005226] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.005299] (-) JobUnselected: {'identifier': 'my_package'}
+[0.005373] (-) JobUnselected: {'identifier': 'polygon_base'}
+[0.005446] (-) JobUnselected: {'identifier': 'polygon_plugins'}
+[0.005519] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.005594] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.005667] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.005741] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.005813] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.005897] (my_astra_camera) JobQueued: {'identifier': 'my_astra_camera', 'dependencies': OrderedDict()}
+[0.006032] (my_astra_camera) JobStarted: {'identifier': 'my_astra_camera'}
+[0.044874] (my_astra_camera) JobProgress: {'identifier': 'my_astra_camera', 'progress': 'cmake'}
+[0.047925] (my_astra_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/sener/ros2_tutorials_ws/src/my_astra_camera', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/sener/ros2_tutorials_ws/install/my_astra_camera'], 'cwd': '/home/sener/ros2_tutorials_ws/build/my_astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sener'), ('SSH_CLIENT', '192.168.0.21 50883 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sener'), ('TERM_PROGRAM_VERSION', '1.93.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7ab83b13-1a84-460c-85f7-174502fcc15b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sener'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/bin/remote-cli:/home/sener/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c625e76330.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sener/ros2_tutorials_ws/build/my_astra_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.21 50883 192.168.0.24 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.098734] (-) TimerEvent: {}
+[0.199986] (-) TimerEvent: {}
+[0.301914] (-) TimerEvent: {}
+[0.341797] (my_astra_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.402094] (-) TimerEvent: {}
+[0.503277] (-) TimerEvent: {}
+[0.604209] (-) TimerEvent: {}
+[0.615356] (my_astra_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.649771] (my_astra_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.704456] (-) TimerEvent: {}
+[0.805615] (-) TimerEvent: {}
+[0.906630] (-) TimerEvent: {}
+[0.989860] (my_astra_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.006824] (-) TimerEvent: {}
+[1.019377] (my_astra_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.020223] (my_astra_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.021645] (my_astra_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.033417] (my_astra_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.107108] (-) TimerEvent: {}
+[1.207889] (-) TimerEvent: {}
+[1.308743] (-) TimerEvent: {}
+[1.409501] (my_astra_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.410622] (-) TimerEvent: {}
+[1.442205] (my_astra_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.443203] (my_astra_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.444920] (my_astra_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.475673] (my_astra_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.510816] (-) TimerEvent: {}
+[1.611513] (-) TimerEvent: {}
+[1.712259] (-) TimerEvent: {}
+[1.813286] (-) TimerEvent: {}
+[1.914172] (-) TimerEvent: {}
+[2.015220] (-) TimerEvent: {}
+[2.116070] (-) TimerEvent: {}
+[2.217053] (-) TimerEvent: {}
+[2.317855] (-) TimerEvent: {}
+[2.418767] (-) TimerEvent: {}
+[2.519454] (-) TimerEvent: {}
+[2.620106] (-) TimerEvent: {}
+[2.720776] (-) TimerEvent: {}
+[2.821439] (-) TimerEvent: {}
+[2.922126] (-) TimerEvent: {}
+[3.022856] (-) TimerEvent: {}
+[3.123563] (-) TimerEvent: {}
+[3.224268] (-) TimerEvent: {}
+[3.325162] (-) TimerEvent: {}
+[3.426365] (-) TimerEvent: {}
+[3.527707] (-) TimerEvent: {}
+[3.628432] (-) TimerEvent: {}
+[3.729116] (-) TimerEvent: {}
+[3.829863] (-) TimerEvent: {}
+[3.930592] (-) TimerEvent: {}
+[4.031306] (-) TimerEvent: {}
+[4.131965] (-) TimerEvent: {}
+[4.232639] (-) TimerEvent: {}
+[4.333303] (-) TimerEvent: {}
+[4.434002] (-) TimerEvent: {}
+[4.534800] (-) TimerEvent: {}
+[4.635510] (-) TimerEvent: {}
+[4.736435] (-) TimerEvent: {}
+[4.837933] (-) TimerEvent: {}
+[4.896683] (my_astra_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.938120] (-) TimerEvent: {}
+[5.038938] (-) TimerEvent: {}
+[5.139668] (-) TimerEvent: {}
+[5.240441] (-) TimerEvent: {}
+[5.341169] (-) TimerEvent: {}
+[5.441869] (-) TimerEvent: {}
+[5.525438] (my_astra_camera) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[5.542033] (-) TimerEvent: {}
+[5.546896] (my_astra_camera) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.642238] (-) TimerEvent: {}
+[5.742963] (-) TimerEvent: {}
+[5.843636] (-) TimerEvent: {}
+[5.868070] (my_astra_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.919764] (my_astra_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.943835] (-) TimerEvent: {}
+[5.985527] (my_astra_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.044025] (-) TimerEvent: {}
+[6.067074] (my_astra_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.144240] (-) TimerEvent: {}
+[6.185848] (my_astra_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.244430] (-) TimerEvent: {}
+[6.345217] (-) TimerEvent: {}
+[6.446080] (-) TimerEvent: {}
+[6.503277] (my_astra_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[6.546287] (-) TimerEvent: {}
+[6.571355] (my_astra_camera) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[6.646511] (-) TimerEvent: {}
+[6.747333] (-) TimerEvent: {}
+[6.848378] (-) TimerEvent: {}
+[6.885536] (my_astra_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.915589] (my_astra_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[6.919661] (my_astra_camera) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[6.920332] (my_astra_camera) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[6.920754] (my_astra_camera) StderrLine: {'line': b'\n'}
+[6.921106] (my_astra_camera) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[6.921471] (my_astra_camera) StderrLine: {'line': b'\n'}
+[6.921785] (my_astra_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[6.925916] (my_astra_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/sener/ros2_tutorials_ws/build/my_astra_camera\n'}
+[6.948626] (-) TimerEvent: {}
+[6.956338] (my_astra_camera) CommandEnded: {'returncode': 0}
+[6.958396] (my_astra_camera) JobProgress: {'identifier': 'my_astra_camera', 'progress': 'build'}
+[6.961010] (my_astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sener/ros2_tutorials_ws/build/my_astra_camera', '--', '-j4', '-l4'], 'cwd': '/home/sener/ros2_tutorials_ws/build/my_astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sener'), ('SSH_CLIENT', '192.168.0.21 50883 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sener'), ('TERM_PROGRAM_VERSION', '1.93.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7ab83b13-1a84-460c-85f7-174502fcc15b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sener'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/bin/remote-cli:/home/sener/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c625e76330.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sener/ros2_tutorials_ws/build/my_astra_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.21 50883 192.168.0.24 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[7.048810] (-) TimerEvent: {}
+[7.127813] (my_astra_camera) CommandEnded: {'returncode': 0}
+[7.131342] (my_astra_camera) JobProgress: {'identifier': 'my_astra_camera', 'progress': 'install'}
+[7.149255] (-) TimerEvent: {}
+[7.174225] (my_astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sener/ros2_tutorials_ws/build/my_astra_camera'], 'cwd': '/home/sener/ros2_tutorials_ws/build/my_astra_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sener'), ('SSH_CLIENT', '192.168.0.21 50883 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sener'), ('TERM_PROGRAM_VERSION', '1.93.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-7ab83b13-1a84-460c-85f7-174502fcc15b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sener'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/home/sener/.vscode-server/cli/servers/Stable-4849ca9bdf9666755eb463db297b69e5385090e3/server/bin/remote-cli:/home/sener/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-c625e76330.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sener/ros2_tutorials_ws/build/my_astra_camera'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.21 50883 192.168.0.24 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[7.205937] (my_astra_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.206803] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/lib/my_astra_camera/CameraCapture.py\n'}
+[7.207834] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/lib/my_astra_camera/DepthMeasurement.py\n'}
+[7.209563] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/ament_index/resource_index/package_run_dependencies/my_astra_camera\n'}
+[7.211520] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/ament_index/resource_index/parent_prefix_path/my_astra_camera\n'}
+[7.213211] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/environment/ament_prefix_path.sh\n'}
+[7.214424] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/environment/ament_prefix_path.dsv\n'}
+[7.215912] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/environment/path.sh\n'}
+[7.217033] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/environment/path.dsv\n'}
+[7.218193] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/local_setup.bash\n'}
+[7.219639] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/local_setup.sh\n'}
+[7.221149] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/local_setup.zsh\n'}
+[7.222712] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/local_setup.dsv\n'}
+[7.223926] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/package.dsv\n'}
+[7.225452] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/ament_index/resource_index/packages/my_astra_camera\n'}
+[7.227079] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.228531] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/cmake/my_astra_cameraConfig.cmake\n'}
+[7.229632] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/cmake/my_astra_cameraConfig-version.cmake\n'}
+[7.230923] (my_astra_camera) StdoutLine: {'line': b'-- Installing: /home/sener/ros2_tutorials_ws/install/my_astra_camera/share/my_astra_camera/package.xml\n'}
+[7.237261] (my_astra_camera) CommandEnded: {'returncode': 0}
+[7.250205] (-) TimerEvent: {}
+[7.331715] (my_astra_camera) JobEnded: {'identifier': 'my_astra_camera', 'rc': 0}
+[7.334550] (-) EventReactorShutdown: {}

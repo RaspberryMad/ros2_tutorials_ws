@@ -1,0 +1,15 @@
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/libuvc.so.0.0.7
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/libuvc.so.0
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/libuvc.so
+/home/sener/ros2_tutorials_ws/install/libuvc/include/libuvc/libuvc.h
+/home/sener/ros2_tutorials_ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/libuvc.a
+/home/sener/ros2_tutorials_ws/install/libuvc/include/libuvc/libuvc.h
+/home/sener/ros2_tutorials_ws/install/libuvc/include/libuvc/libuvc_config.h
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+/home/sener/ros2_tutorials_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake

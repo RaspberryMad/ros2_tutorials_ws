@@ -1,0 +1,6 @@
+Invoking command in '/home/sener/ros2_tutorials_ws/build/my_astra_camera': /usr/bin/cmake /home/sener/ros2_tutorials_ws/src/my_astra_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sener/ros2_tutorials_ws/install/my_astra_camera
+Invoked command in '/home/sener/ros2_tutorials_ws/build/my_astra_camera' returned '0': /usr/bin/cmake /home/sener/ros2_tutorials_ws/src/my_astra_camera -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sener/ros2_tutorials_ws/install/my_astra_camera
+Invoking command in '/home/sener/ros2_tutorials_ws/build/my_astra_camera': /usr/bin/cmake --build /home/sener/ros2_tutorials_ws/build/my_astra_camera -- -j4 -l4
+Invoked command in '/home/sener/ros2_tutorials_ws/build/my_astra_camera' returned '0': /usr/bin/cmake --build /home/sener/ros2_tutorials_ws/build/my_astra_camera -- -j4 -l4
+Invoking command in '/home/sener/ros2_tutorials_ws/build/my_astra_camera': /usr/bin/cmake --install /home/sener/ros2_tutorials_ws/build/my_astra_camera
+Invoked command in '/home/sener/ros2_tutorials_ws/build/my_astra_camera' returned '0': /usr/bin/cmake --install /home/sener/ros2_tutorials_ws/build/my_astra_camera

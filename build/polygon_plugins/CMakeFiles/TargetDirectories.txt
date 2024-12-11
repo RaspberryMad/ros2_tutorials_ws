@@ -1,0 +1,10 @@
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/uninstall.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/polygon_plugins_uninstall.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/polygon_plugins.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/test.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/edit_cache.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/rebuild_cache.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/list_install_components.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/install.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/install/local.dir
+/home/sener/ros2_tutorials_ws/build/polygon_plugins/CMakeFiles/install/strip.dir

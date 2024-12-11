@@ -1,0 +1,9 @@
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/DeviceInfo.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Extrinsics.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Metadata.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetDeviceInfo.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraInfo.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraParams.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetInt32.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetString.idl
+/home/sener/ros2_tutorials_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/SetInt32.idl
